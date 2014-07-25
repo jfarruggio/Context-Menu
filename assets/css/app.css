@@ -28,6 +28,16 @@
   padding: 6px 30px 6px 17px; 
 }
 
+.sidebar-nav-v1 li ul div {
+  color: #585f69;
+  font-size: 12px;
+  border-top: solid 1px #ddd;
+  padding: 6px 30px 6px 17px; 
+}
+
+.list-group-item {
+  background-color: #f1f1f1; 
+}
 
 
 

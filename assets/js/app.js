@@ -72,6 +72,8 @@ var App = function () {
             jQuery(this).toggleClass('active');
         });
 
+        /*/
+
         /*
         jQuery('#serviceList').on('shown.bs.collapse'), function() {
             jQuery(".servicedrop").addClass('glyphicon-chevron-up').removeClass('glyphicon-chevron-down');

@@ -67,12 +67,11 @@ var App = function () {
         }); 
     }
 
-    function handleToggle() {
-        jQuery('.list-toggle').on('click', function() {
-            jQuery(this).toggleClass('active');
-        });
+    // function handleToggle() {
+    //     jQuery('.list-toggle').on('click', function() {
+    //         jQuery(this).toggleClass('active');
+    //     });
 
-        /*/
 
         /*
         jQuery('#serviceList').on('shown.bs.collapse'), function() {

@@ -39,8 +39,8 @@
                 <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
                     <!-- Typography -->
                     <li class="list-group-item list-toggle">                   
-                        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-typography">AFUE %</a>
-                        <ul id="collapse-typography" class="collapse">
+                        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-afue">AFUE %</a>
+                        <ul id="collapse-afue" class="collapse">
                             <li>
                                 <div>
                                     <input type="checkbox" name="checkbox"> 80%
@@ -54,8 +54,8 @@
                     </li>
 
                     <li class="list-group-item list-toggle">                   
-                        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-buttons">Brand</a>
-                        <ul id="collapse-buttons" class="collapse">
+                        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-brands">Brand</a>
+                        <ul id="collapse-brands" class="collapse">
                             <li>
                                 <div>
                                     <input type="checkbox" name="checkbox"> Maytag
@@ -78,7 +78,7 @@
     
 </div><!--/End Wrapepr-->
 
-<!-- JS Global Compulsory -->           
+<!-- JS Global Compulsory -->       
 <script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
@@ -89,6 +89,13 @@
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();
+    });
+</script>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        $(‘.list-toggle’).on(‘click’, ‘a’, function() {
+            $('.list-toggle').toggleClass('active');
+        });
     });
 </script>
 <!--[if lt IE 9]>

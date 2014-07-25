@@ -28,8 +28,9 @@
   padding: 6px 30px 6px 17px; 
 }
 
-
-
+.list-group-item {
+  background-color: #f1f1f1; 
+}
 
 
 
@@ -555,7 +556,7 @@ h3.heading-xs {
 
 .sidebar-nav-v1 li ul,
 .sidebar-nav-v1 li.active ul a {
-  background: #f8f8f8;
+  background: #fff;
 }
 
 .sidebar-nav-v1 li ul a {
